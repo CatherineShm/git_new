@@ -1,10 +1,9 @@
-t_1 = float(input("Podaj temperaturę z pierwszego dnia: "))
-t_2 = float(input("Podaj temperaturę z drugiego dnia: "))
-t_3 = float(input("Podaj temperaturę z trzeciego dnia: "))
-t_4 = float(input("Podaj temperaturę z czwartego dnia: "))
-t_5 = float(input("Podaj temperaturę z piątego dnia: "))
-t_6 = float(input("Podaj temperaturę z szostego dnia: "))
-t_7 = float(input("Podaj temperaturę z siodmego dnia: "))
+x = 7
+temp = 0
+while x > 0 :
+    t = float(input("Podaj temperaturę: "))
+    x = x - 1
+    temp += t
 
-print("Średnia z temperatór to: ", int((t_1 + t_2 + t_3 + t_4 + t_5 + t_6 + t_7)/7), "stopni. ")
+print("Średnia z temperatór to: ", f"{t/7 : .2f}", "stopni. ")
 
