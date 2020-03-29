@@ -5,5 +5,5 @@ while x > 0 :
     x = x - 1
     temp += t
 
-print("Średnia z temperatór to: ", f"{t/7 : .2f}", "stopni. ")
+print("Średnia z temperatur to: ", f"{t/7 : .2f}", "stopni. ")
 
