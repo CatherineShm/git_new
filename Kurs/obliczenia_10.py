@@ -8,6 +8,9 @@ elif operation == "+" :
 elif operation == "*" :
     print(number_1 * number_2)
 elif operation == "/" :
-    print(number_1 / number_2)
+    if number_2 != 0 :
+        print(round(number_1 / number_2, 2))
+    else:
+        print("Nie można dzielić przez zero.")
 else:
     print("Wystąpił błąd: podałeś niepoprawną  operację.")
